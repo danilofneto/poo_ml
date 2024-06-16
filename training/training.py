@@ -3,7 +3,6 @@ from sklearn import metrics
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-
 class TrainModel:
 
     def __init__(self, config):
@@ -27,4 +26,3 @@ class TrainModel:
             y_pred = clf.predict(X_test)
 
             print(f'Acc:{metrics.accuracy_score(y_test, y_pred)}, do modelo, {clf}')
-

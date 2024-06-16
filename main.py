@@ -1,6 +1,7 @@
 from utils import graphs as g
 from utils.load_config import carregar_configuracao
 from training import training
+from training import mlflow_training
 
 import numpy as np
 import os
@@ -30,6 +31,7 @@ config = carregar_configuracao(path_config)
 
 treino1 = training.TrainModel(config)
 
+
 X_train, X_test, y_train, y_test = training.train_test_split(X_numeric, y_numeric)
 
 print(X_train)
@@ -44,5 +46,12 @@ from sklearn.datasets import load_iris
 iris = load_iris()
 X = iris.data
 y = iris.target
+X_train, X_test, y_train, y_test = training.train_test_split(X, y)
 
-treino1.training_models(X, y)
+
+#treino1.training_models(X, y)
+
+#mlflow_training.create_experiment()
+mlflow_training.mlflow_run_model('Iris-Dev', X_train, X_test, y_train, y_test)
+
+

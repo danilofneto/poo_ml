@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Cliente/repos/poo_ml/mlruns/320068204721013326/d2d2bedfc4a742b388d5c7ea7c83319b/artifacts
+end_time: 1718569314727
+entry_point_name: ''
+experiment_id: '320068204721013326'
+lifecycle_stage: active
+run_id: d2d2bedfc4a742b388d5c7ea7c83319b
+run_name: delightful-bass-831
+run_uuid: d2d2bedfc4a742b388d5c7ea7c83319b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718569314225
+status: 4
+tags: []
+user_id: danilo

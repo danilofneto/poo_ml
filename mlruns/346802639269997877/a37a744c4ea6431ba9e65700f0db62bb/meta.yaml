@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Cliente/repos/poo_ml/mlruns/346802639269997877/a37a744c4ea6431ba9e65700f0db62bb/artifacts
+end_time: 1718570326773
+entry_point_name: ''
+experiment_id: '346802639269997877'
+lifecycle_stage: active
+run_id: a37a744c4ea6431ba9e65700f0db62bb
+run_name: invincible-newt-42
+run_uuid: a37a744c4ea6431ba9e65700f0db62bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718570314253
+status: 3
+tags: []
+user_id: danilo

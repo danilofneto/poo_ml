@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Cliente/repos/poo_ml/mlruns/346802639269997877/5424364a4530423a8214bf51034421d0/artifacts
+end_time: 1718569870715
+entry_point_name: ''
+experiment_id: '346802639269997877'
+lifecycle_stage: active
+run_id: 5424364a4530423a8214bf51034421d0
+run_name: industrious-pig-949
+run_uuid: 5424364a4530423a8214bf51034421d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718569870516
+status: 4
+tags: []
+user_id: danilo
